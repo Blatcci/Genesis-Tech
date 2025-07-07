@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Genesis-Tech</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #0072bb;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+    nav {
+      background: #005b99;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #0072bb;
+      margin-bottom: 20px;
+    }
+    .services ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .services li::before {
+      content: "\f00c";
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      color: green;
+      margin-right: 10px;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      background: #0072bb;
+      color: white;
+      padding: 12px 25px;
+      margin: 10px 5px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-icons i {
+      color: #0072bb;
+      margin-right: 10px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebc59;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .cta-buttons a {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Genesis-Tech</h1>
+    <p>Top-Quality Electrical and Solar Services — Without the Top-Shelf Price Tag.</p>
+    <div class="cta-buttons">
+      <a href="tel:+263771728136">Call Us</a>
+      <a href="mailto:thegenesistech20@gmail.com">Email Us</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="section services" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Solar Installations</li>
+      <li>Domestic Electrical Installations</li>
+      <li>Maintenance & Repairs</li>
+      <li>System Fixes & Component Supply</li>
+    </ul>
+    <p>We provide quality and affordable services — guaranteed.</p>
+  </div>
+
+  <div class="section" id="why">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>Reliable and Experienced Technicians</li>
+      <li>Best Prices Guaranteed</li>
+      <li>Trusted Brands and Components</li>
+      <li>Fast Turnaround & Friendly Support</li>
+    </ul>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p class="contact-icons">
+      <i class="fas fa-phone"></i> +263 771 728 136<br />
+      <i class="fas fa-phone"></i> +263 784 733 688<br />
+      <i class="fas fa-phone"></i> +263 715 386 544<br />
+      <i class="fas fa-envelope"></i> <a href="mailto:thegenesistech20@gmail.com">thegenesistech20@gmail.com</a><br />
+      <i class="fab fa-whatsapp"></i> +263 717 656 178 (WhatsApp)
+    </p>
+    <p>Available on WhatsApp</p>
+  </div>
+
+  <a class="whatsapp-float" href="https://wa.me/263717656178" target="_blank" title="Chat with us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    <p>&copy; 2025 The Genesis-Tech. All rights reserved.</p>
+  </footer>
+</body>
+</html>
